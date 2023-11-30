@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int printInfo(int x){
+	return x*5;
+
+}
+
+string printInfo(string s){
+	return s + "This here is the/a string";
+}
+
+int main(){
+	
+	cout << "This here is an integer multiplied by 5 -> " << printInfo(5) << printInfo("\nThat there -> ");
+	
+	return 0;
+}
+
